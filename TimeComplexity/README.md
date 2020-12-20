@@ -2,11 +2,11 @@
 
 ## Time Complexity can be represented by the notation `T(n)`, where n is the size of the input or the problem. It is the time (or the number of steps) it takes to complete a problem of size n
 
-## Big O notation or `O(f(n))` is a mathematical notation that describes the limiting behaviour of a function when the argument tends towards a specific value or infinity. For e.g.
+## Big O notation or `O(f(n))` is a mathematical notation that describes the limiting behaviour of a function when the argument tends towards a specific value or infinity
 ```
 If T(n) = 6n^4 - 2n^3 + 5 and n approaches infinty
 we say that T(n) is a Big O of n^4 or
-T(n) = O(n^4), where ***=*** stands for ***is*** and ***not literal equality***
+T(n) = O(n^4), where = stands for is and not literal equality
 ```
 
 ### Let's understand the meaning of some common time complexities
