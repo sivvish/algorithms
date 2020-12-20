@@ -2,13 +2,14 @@ public class SearchAlgorithms {
 
 	// Search for integer x in the integer array arr linearly
 	// If x is present, return the index, else return -1
+	// T(n) = O(n)
 	private static int linearSearch(int x, int arr[]) {   	
-    	for(int i=0; i<arr.length; i++){
-    	 	if(arr[i] == x){
-    	 		// return the position or the index
-    	 		return i;
-    	 	}
-    	} 
+		for(int i=0; i<arr.length; i++){
+		 	if(arr[i] == x){
+		 		// return the position or the index
+		 		return i;
+		 	}
+		} 
 		return -1;
 	}
 
